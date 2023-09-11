@@ -1,0 +1,58 @@
+
+body{
+    display: flex;
+    text-align: center;
+
+    align-items: center;
+    flex-direction: column; 
+    margin: 0;
+}
+
+#hero{
+    width: 592px;
+    margin: 0 auto 72px
+}
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin-bottom: 72px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+span, a{
+
+    color: orange;
+}
+
+body, p, a{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#footer a + a {
+    margin-left: 28px ;
+
+}
+
+#line{    flex-direction: column; 
+width: 568PX;
+height: 0px auto 8px;
+border: 7px solid #ECEFF2;
+margin: auto;
+}
+
+#bols{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
